@@ -62,7 +62,7 @@ h1.banner-title{
 }
 .region-home-banner-text p {
     font-size: 1.4em;
-	font-family:"myriad-pro" !important;
+	/*font-family:"myriad-pro" !important;*/
 	color:#ffffff !important;
 	font-weight: 300!important;
 	line-height:150%;

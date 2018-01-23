@@ -192,7 +192,7 @@ th, tr, td {
 
 .homebanner {
     position: relative;
-    background: url(../static/banner-asal-new.jpg) no-repeat bottom #00afc4;
+    background: url(../static/index_image.jpg) no-repeat bottom #00afc4;
     font-size: 14px;
     background-size: cover;
     height: 400px;

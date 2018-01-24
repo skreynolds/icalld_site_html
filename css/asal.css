@@ -483,9 +483,11 @@ p.abstract {
 .img-nonresponsive{
 	width:auto !important;
 }
+
 .accordion{
 	border-bottom:1px solid #d9d9d9;
 }
+
 .ui-state-default .ui-icon {
     background: url("../images/plus-icon.png");
 }

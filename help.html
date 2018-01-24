@@ -45,7 +45,45 @@
 </style>
 
 <link href="./css/css" rel="stylesheet" type="text/css">
-    
+
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/jquery.once.js"></script>
+<script type="text/javascript" src="./js/drupal.js"></script>
+<script type="text/javascript" src="./js/jquery.ui.core.min.js"></script>
+<script type="text/javascript" src="./js/jquery.ui.widget.min.js"></script>
+<script type="text/javascript" src="./js/jquery.ui.accordion.min.js"></script>
+<script type="text/javascript" src="./js/jquery.ui.tabs.min.js"></script>
+
+<script type="text/javascript">
+(function ($) {
+    Drupal.behaviors.accordionRoles = {
+      attach: function (context, settings) {
+        $('.accordion').accordion({
+          autoHeight: false,
+      collapsible: true,
+      active: false
+         });
+     
+     $('.expand').click(function() {
+            $('.ui-accordion .ui-widget-content').show();
+        });
+        $('.collapse').click(function() {
+            $('.ui-accordion .ui-widget-content').hide();
+        });
+     
+      }
+    };
+  }(jQuery));
+</script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+jQuery("#tabs").tabs();
+});
+</script>
+
+<script type="text/javascript" src="./js/custom.js"></script>
+
 </head>
 
 <body class="html front not-logged-in no-sidebars page-node page-node- page-node-2 node-type-page tb-metroz">

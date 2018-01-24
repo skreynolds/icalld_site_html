@@ -187,7 +187,7 @@
     margin: 0;
     letter-spacing: 1px;
     text-align: center;
-    background: url(../images/mobile-menu.png) right 14px #18222B no-repeat;
+    background: url(../static/mobile-menu.png) right 14px #18222B no-repeat;
     padding: 15px;
     width: 50px;
     font-size: 0;
